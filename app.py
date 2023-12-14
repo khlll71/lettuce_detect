@@ -5,7 +5,6 @@ from collections import Counter
 # External packages
 import streamlit as st
 
-from ultralytics import YOLO
 import settings
 import helper
 from recognition_records import display_recognition_records , save
