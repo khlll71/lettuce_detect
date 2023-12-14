@@ -6,6 +6,5 @@ pathlib==1.0.1
 temp==2020.7.2
 opencv-python==4.8.1.78
 opencv-python-headless==4.8.1.78
-libgl1-mesa-glx
 
 
