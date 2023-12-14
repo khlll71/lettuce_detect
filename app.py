@@ -96,8 +96,6 @@ video{
 </style>
 """, unsafe_allow_html=True)
 
-
-
 st.title("Greenhouse Plants Detection")
 
 model_type = 'Detection'
@@ -113,33 +111,6 @@ except Exception as ex:
 
 if 'selected_button' not in st.session_state:
     st.session_state.selected_button = None
-
-#if 'image' not in st.session_state:
-#    st.session_state.image=False
-
-#if 'video' not in st.session_state:
-#    st.session_state.video=False
-
-#if 'rtmp' not in st.session_state:
-#    st.session_state.rtmp=False
-
-#if 'view' not in st.session_state:
-#   st.session_state.view=False
-
-#if 'history' not in st.session_state:
-#    st.session_state.history=False
-
-#def image():
-#    st.session_state.image = not(st.session_state.image)
-#def video():
-#    st.session_state.video = not(st.session_state.video)
-#def rtmp():
-#    st.session_state.rtmp = not(st.session_state.rtmp)
-#def view():
-#    st.session_state.view = not(st.session_state.view)
-#def history():
-#    st.session_state.history = not(st.session_state.history)
-
 
 image_bt = st.sidebar.button('Select Image')
 if image_bt:
@@ -288,5 +259,3 @@ elif st.session_state.selected_button == "his_bt":
     display_recognition_records()
     pass
 
-#else:
-#    st.error("Something wrong!")
