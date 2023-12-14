@@ -1,2 +1,1 @@
-pip install ultralytics
-pip install streamlit 
+ultralytics
